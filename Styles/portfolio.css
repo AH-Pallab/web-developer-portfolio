@@ -1,0 +1,85 @@
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.orrange-color {
+  color: #FD6E0A;
+}
+
+.extra-bold {
+  font-weight: bolder;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.dark-2 {
+  color: #474747;
+}
+
+.dark-3 {
+  color: #757575;
+}
+
+.btn-primary {
+  height: 64px;
+  width: 150px;
+  background-color: #FD6E0A;
+  color: white;
+  font-size: 20;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+/* header */
+header {
+  background-image: url(../portfolio-resources/images/developer.png), url(../portfolio-resources/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, right bottom;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 230px;
+}
+
+nav h2 {
+  font-size: 45px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 51px;
+}
+
+nav li>a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Banner */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 35px 0 230px;
+}
+
+.banner-content {
+  width: 585px;
+  height: 356px;
+}
